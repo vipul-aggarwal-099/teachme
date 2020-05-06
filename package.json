@@ -1,0 +1,25 @@
+{
+  "name": "teachme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipul-aggarwal-099/teachme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipul-aggarwal-099/teachme/issues"
+  },
+  "homepage": "https://github.com/vipul-aggarwal-099/teachme#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3"
+  }
+}
