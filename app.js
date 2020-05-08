@@ -14,12 +14,12 @@ app.use((req, res) => {
 
   mongoose
   .connect(
-    "mongodb+srv://kareeba:1Toyyibat@cluster0-fd7rl.mongodb.net/test?retryWrites=true&w=majority"
+    `mongodb+srv://tutor_database:${process.env.DATABASE_URL}@cluster0-az7qx.mongodb.net/test?retryWrites=true&w=majority`
 ,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(result => {
     console.log("Database connected");
-    app.listen(3000);
+    app.listen(4596);
   })
   .catch(err => console.log(err));
