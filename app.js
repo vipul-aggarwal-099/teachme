@@ -14,7 +14,7 @@ app.use((req, res) => {
 
   mongoose
   .connect(
-    `mongodb+srv://tutor_database:${process.env.DATABASE_URL}@cluster0-az7qx.mongodb.net/test?retryWrites=true&w=majority`
+    `mongodb+srv://tutor_database:admin@cluster0-az7qx.mongodb.net/test?retryWrites=true&w=majority`
 ,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )

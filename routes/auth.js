@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { signUp, logIn } = require("../controllers/auth");
+const {signUp, logIn}  = require("../controller/auth");
 
 router.get("/",  (req, res) => {
     res.send("This is the express app. You have now entered express");
